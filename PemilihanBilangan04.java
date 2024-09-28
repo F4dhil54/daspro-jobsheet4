@@ -8,17 +8,15 @@ public class PemilihanBilangan04 {
         System.out.println("==========MENCARI ANGKA GENAP DAN GANJIL==========");
 
         System.out.println("masukan sebuah angka : ");
-        int angka = sc.nextInt();
-
-        String hasil = (angka % 2 == 0) ? "adalah angka genap " : "adalah angka ganjil";
-        System.out.println("angka" + angka + hasil);
-
-    
-
-        // if(angka % 2 == 0){
-        //     System.out.println("angka " + angka + "Termasuk bilangan genap");
-        // } else {
-        //     System.out.println("angka " + angka + " Termasuk bilangan ganjil");
-        // }
+        int angka = sc.nextInt();\
+        
+        if(angka % 2 == 0){
+            System.out.println("angka " + angka + "Termasuk bilangan genap");
+        } else {
+            System.out.println("angka " + angka + " Termasuk bilangan ganjil");
+        }
     }
 }
+
+        // String hasil = (angka % 2 == 0) ? "adalah angka genap " : "adalah angka ganjil";
+        // System.out.println("angka" + angka + hasil);
